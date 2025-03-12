@@ -16,14 +16,17 @@ title: Donatien Konan | Data Science, Engineering, and DataOps Portfolio
             <li><a href="#education">Education</a></li>
             <li><a href="#technical-skills">Technical Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Get in Touch</a></li>
         </ul>
     </div>
 </div>
 
+## **Data Engineer | Data Scientist | Data Analyst**
+---
+
 ## <a id="about"></a> 👨🏻‍💻 **About Me**
 
-![Profile Picture](assets/img/profile.jpg)  <!-- Replace with your profile image -->
+<!--[Profile Picture](assets/img/profile.jpg)>  <!-- Replace with your profile image -->
 
 Hi, I am Donatien, an ambitious Data Scientist and Data Engineer keen on leveraging technology to solve complex problems.
 
@@ -32,9 +35,9 @@ I have worked on a collaborative classification of restaurant web application pr
 I am eager to contribute to high-impact, data-driven solutions and continuously expand my expertise in AI, infrastructure, and software scalability.
 
 ---
-## **Data Engineer | Data Scientist | Data Analyst**
 
-## <a id="about"></a>👨🏻‍💻  **Technical Skills**
+
+## <a id="technical-skills"></a> 🛠️  **Technical Skills**
 
 - **Languages** :
 [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python)](https://www.python.org/)
@@ -73,7 +76,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 ## <a id="work-experience"></a>💼 **Work Experience**
 ### **Data Engineer**
 **Le Wagon** | Paris | **_Nov 2024 - Dec 2024_**
-![Le Wagon Picture](assets/img/lewagon.jpeg) <!-- Replace with your lewagon image -->
+<!--[Le Wagon Picture](assets/img/lewagon.jpeg)> <!-- Replace with your lewagon image -->
 - Collaborative project using `Git` and Pull Requests to Dev and Prod Environment
 - Setting up a `ETLT Pipeline` from many data sources using `Python`, `GCS` and `BigQuery`
 - Build data with `DBT` into data warehouse following Raw-Staging-Mart architecture
@@ -86,7 +89,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ### **Data scientist**
 **Openclassrooms** | Paris | **_Oct 2021 - Aug 2022_**
-![Openclassroom Logo](assets/img/openclassrooms.png)  <!-- Replace with your openclassroom image -->
+<!--[Openclassroom Logo](assets/img/openclassrooms.png)>  <!-- Replace with your openclassroom image -->
 - Proof of concept : classification via `NLP` and computer Vision (`CNN`)
 - Dashboard web application via Streamlit framework and serving with an `API REST FastAPI`
 - Setting up a big data cloud architecture on `AWS` and transform with `Pyspark`, Spark API for Python
@@ -95,13 +98,13 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ### **High School Physics Teacher**
 **Versailles Academy** | Ile-de-France | **_Jan 2018 - Aug 2021_**
-![academie_de_versailles Logo](assets/img/academie_de_versailles.png) <!-- Replace with your academie_de_versailles image -->
+<!--[academie_de_versailles Logo](assets/img/academie_de_versailles.png)> <!-- Replace with your academie_de_versailles image -->
 
 ---
 
 ### **R&D Battery and Supercapacitor Engineer**
 **PCM2E** | Tours | **_Apr 2017 - Jul 2017_**
-![PCM2E Logo](assets/img/PCM2E.png)
+<!--[PCM2E Logo](assets/img/PCM2E.png)-->
 - Development and Characterization of supercapacitor electrode materials in chemistry Laboratory
 
 ---
@@ -109,21 +112,21 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 ## <a id="education"></a>📚 **Education**
 ### **BootCamp in Data Engineering and Sofware Engineering**
 **Le Wagon School** | Paris | **_Oct 2024 - Dec 2024_**
-![Le Wagon Logo](assets/img/univ-tours.svg)
+<!--[Le Wagon Logo](assets/img/univ-tours.svg)-->
 
 ---
 
 ### **Data science**
 **Openclassrooms & CentraleSupelec** | Paris | **_Oct 2021 - Aug 2022_**
-![Openclassrooms & CentraleSupelec Logo](assets/img/centralesupelec.svg)
+<!--[Openclassrooms & CentraleSupelec Logo](assets/img/centralesupelec.svg)-->
 ---
 
 ### **M.S. in Electrical Energy Storage Materials Science**
 **University of Tours** | Tours | **_Sep 2016 - Sep 2017_**
-![University of Tours Logo](assets/img/univ-tours.svg)
+<!--[University of Tours Logo](assets/img/univ-tours.svg)-->
 ---
 
-## <a id="projects"></a>🚀 Projects
+## <a id="projects"></a>🚀 **Projects**
 
 - **1. SolarEnergyConsumption**
     - Part 1 : Data Pipeline (Daily Extraction)
@@ -131,7 +134,9 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
       - Optimization Storage into GCS and Load data into BigQuery
       - Build data with DBT into data warehouse following `Raw-Staging-Mart` architecture
       - Orchestrate Data Pipeline with Apache Airflow
-        - [View Porject](https://github.com/donat-konan33/airbyte_deployment)
+      - Data Pipeline turn on a GCP Vitual Machine
+        - [View Project](https://github.com/donat-konan33/airbyte_deployment)
+        - [Data Pipeline Scaling in progress...](https://github.com/donat-konan33/MetropolitanFranceWeather)
 
     - Part 2 : Web App and **LLM AgentSunAI**
       - Create a Web App Streamlit
@@ -139,6 +144,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
       - Create an AI Agent from `LLM model deepseek/deepseek-r1:free` for free to suggest daily electrical energy consumption according to household appliances usually utilized and Solar data
       - Deploy App to a Scalable Environment ``Cloud Run`` on GCP via ``CI/CD with GitHub Actions``
         - [View Project](https://github.com/donat-konan33/weatherteam_streamlit_dashboard)
+        - [View Streamlit Web App run onto Cloud Run](https://weather-photovoltaic-app-775528963714.europe-west1.run.app/)
 
 ---
 
@@ -156,7 +162,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ---
 
-## <a id="contact"></a>📬 **Contact**
+## <a id="contact"></a>📬 **Get in Touch**
 
 - **Email**: [donatien.konan.pro@gmail.com](mailto:donatien.konan.pro@gmail.com)
 - **GitHub**: [github.com/donat-konan33](https://github.com/donat-konan33)
