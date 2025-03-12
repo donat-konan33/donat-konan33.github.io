@@ -132,7 +132,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
     - Part 1 : Data Pipeline (Daily Extraction)
       - Setting up a ETLT Pipeline from many sources using `Airbyte, Python, GCS and BigQuery`
       - Optimization Storage into GCS and Load data into BigQuery
-      - Build data with DBT into data warehouse following `Raw-Staging-Mart` architecture
+      - Build data with DBT into data warehouse following `Raw-Staging-Intermediate-Mart` architecture
       - Orchestrate Data Pipeline with Apache Airflow
       - Data Pipeline turn on a GCP Vitual Machine
         - [View Project](https://github.com/donat-konan33/airbyte_deployment)
