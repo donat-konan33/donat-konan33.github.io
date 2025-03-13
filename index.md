@@ -30,7 +30,7 @@ title: Donatien Konan | Data Science, Engineering, and DataOps Portfolio
 
 Hi, I am Donatien, an ambitious Data Scientist and Data Engineer keen on leveraging technology to solve complex problems.
 
-I have worked on a collaborative classification of restaurant web application project, built scalable data pipelines and deployed solutions across my short internship experience at LE WAGON after training. I also do my own projects that gather skills around Data Science, DataOps and CI/CD. My expertise spans data science, data enginnering, machine Learning and DataOps (I continue my improvement).
+I have worked on a collaborative classification of restaurant web application project, built scalable data pipelines and deployed solutions across my short internship experience at LE WAGON after training. I also do my own projects that gather skills around Data Science, DataOps and CI/CD. My expertise spans Data Science, Data Engineering, Machine Learning and DataOps (I continue my improvement).
 
 I am eager to contribute to high-impact, data-driven solutions and continuously expand my expertise in AI, infrastructure, and software scalability.
 
