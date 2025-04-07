@@ -30,7 +30,7 @@ title: Donatien Konan | Data Science, Engineering, and DataOps Portfolio
 
 Hi, I am Donatien, an ambitious Data Scientist and Data Engineer keen on leveraging technology to solve complex problems.
 
-I have worked on a collaborative classification of restaurant web application project, built scalable data pipelines and deployed solutions across my short internship experience at LE WAGON after training. I also do my own project that gather skills around Data Science, DataOps and CI/CD. My expertise spans data science, data enginnering, machine Learning and DataOps (I continue my improvement).
+I have worked on a collaborative classification of restaurant web application project, built scalable data pipelines and deployed solutions across my short internship experience at LE WAGON after training. I also do my own projects that gather skills around Data Science, DataOps and CI/CD. My expertise spans Data Science, Data Engineering, Machine Learning and DataOps (I continue my improvement).
 
 I am eager to contribute to high-impact, data-driven solutions and continuously expand my expertise in AI, infrastructure, and software scalability.
 
@@ -116,14 +116,16 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ---
 
-### **Data science**
-**Openclassrooms & CentraleSupelec** | Paris | **_Oct 2021 - Aug 2022_**
+### **Data Science**
+**OpenClassrooms & CentraleSupelec** | Paris | **_Oct 2021 - Aug 2022_**
 <!--[Openclassrooms & CentraleSupelec Logo](assets/img/centralesupelec.svg)-->
+
 ---
 
 ### **M.S. in Electrical Energy Storage Materials Science**
 **University of Tours** | Tours | **_Sep 2016 - Sep 2017_**
 <!--[University of Tours Logo](assets/img/univ-tours.svg)-->
+
 ---
 
 ## <a id="projects"></a>🚀 **Projects**
