@@ -158,7 +158,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 - **3. DashboardFailureToPay**
   - Containerization based on Docker for a machine learning binary classification application whose behavior is visualized on an interactive dashboard
-    - [View Porject...](https://github.com/ONOKANA8/DashboardFailureToPay/tree/docker-app-branch)
+    - [View Project...](https://github.com/ONOKANA8/DashboardFailureToPay/tree/docker-app-branch)
 
 ---
 
