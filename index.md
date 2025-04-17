@@ -146,7 +146,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
       - Create an AI Agent from `LLM model deepseek/deepseek-r1:free` for free to suggest daily electrical energy consumption according to household appliances usually utilized and Solar data
       - Deploy App to a Scalable Environment ``Cloud Run`` on GCP via ``CI/CD with GitHub Actions``
         - [View Project](https://github.com/donat-konan33/weatherteam_streamlit_dashboard)
-        - [View Streamlit Web App run onto Cloud Run](https://weather-photovoltaic-app-775528963714.europe-west1.run.app/)
+        - [View Streamlit Web App run onto Cloud Run](https://weather-photovoltaic-app-775528963714.europe-west1.run.app/ "Unavailability | This Project is currently being migrated from GCP to Local infrastructure MINIO/Apache IceBerg/DBT/Spark/Docker")
 
 ---
 
