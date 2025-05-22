@@ -48,9 +48,12 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 - **Data Science** :
 [![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-F7931E?style=flat&logo=scikit-learn)](https://scikit-learn.org/stable/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![NLTK](https://img.shields.io/badge/NLTK-026DA1?style=flat&logo=python&logoColor=white)](https://www.nltk.org/)
 [![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat&logo=python&logoColor=white)](https://spacy.io/)
+
 
 - **Data Engineering** :
 [![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git)](https://git-scm.com/)
@@ -130,37 +133,48 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ## <a id="projects"></a>🚀 **Projects**
 
-- **1. SolarEnergyConsumption**
-    - Part 1 : Data Pipeline (Daily Extraction)
-      - Setting up a ETLT Pipeline from many sources using `Airbyte, Python, GCS and BigQuery`
-      - Optimization Storage into GCS and Load data into BigQuery
-      - Build data with DBT into data warehouse following `Raw-Staging-Intermediate-Mart` architecture
-      - Orchestrate Data Pipeline with Apache Airflow
-      - Data Pipeline turn on a GCP Vitual Machine
-        - [View Project](https://github.com/donat-konan33/airbyte_deployment)
-        - [Data Pipeline Scaling in progress...](https://github.com/donat-konan33/MetropolitanFranceWeather)
+- **1. Concealed Objects Detection Using Terahertz Imaging**
+  - Built a deep learning solution for detecting concealed objects in terahertz images
+  - Utilized the YOLOv8 convolutional neural network architecture with the PyTorch framework
+  - [View Project](https://github.com/donat-konan33/ConcealedObjectsDetection)
 
-    - Part 2 : Web App and **LLM AgentSunAI**
-      - Create a Web App Streamlit
-      - Visualization Weather Statistic Trends with `Plotly Library` across the next 7 days every day
-      - Create an AI Agent from `LLM model deepseek/deepseek-r1:free` for free to suggest daily electrical energy consumption according to household appliances usually utilized and Solar data
-      - Deploy App to a Scalable Environment ``Cloud Run`` on GCP via ``CI/CD with GitHub Actions``
-        - [View Project](https://github.com/donat-konan33/weatherteam_streamlit_dashboard)
-        - [Unavailability, This Project is currently being migrated from GCP to Local infrastructure MINIO/Apache IceBerg/DBT/Spark/Docker](https://weather-photovoltaic-app-775528963714.europe-west1.run.app/)
+- **2. Solar Energy and Consumption Optimization**
+  - **Part 1: Data Pipeline (Daily Extraction)**
+    - Designed and implemented an ETLT pipeline aggregating data from multiple sources using `Airbyte`, `Python`, `GCS`, and `BigQuery`
+    - Optimized storage in GCS and loaded data into BigQuery
+    - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
+    - Orchestrated the pipeline with Apache Airflow, running on a GCP Virtual Machine
+    - [View Project](https://github.com/donat-konan33/airbyte_deployment)
+    - [Data Pipeline Scaling in progress...](https://github.com/donat-konan33/MetropolitanFranceWeather)
 
----
+  - **Part 2: Web App and LLM AgentSunAI**
+    - Developed a Streamlit web application for interactive visualization of weather statistics and trends using the `Plotly` library, updated daily for the next 7 days
+    - Integrated an AI agent powered by the `deepseek/deepseek-r1:free` LLM to provide daily energy consumption recommendations based on typical household appliance usage and solar data
+    - Deployed the application to a scalable environment on GCP Cloud Run using CI/CD pipelines with GitHub Actions
+    - [View Project](https://github.com/donat-konan33/weatherteam_streamlit_dashboard)
+    - [Currently migrating from GCP to local infrastructure (MINIO, Apache Iceberg, DBT, Spark, Docker)](https://weather-photovoltaic-app-775528963714.europe-west1.run.app/)
 
-- **2. WeatherData**
-  - Extract data to csv files with `Python and Apache airflow`
-  - Load and Transform data into ``Power Query``
-  - Data Modeling and Visualization with `Power BI and Python`,
-    - [View a Post about this Use Case](https://onokana8.github.io/SolarPanelsNasa/2024/05/30/Analyzing-extracted-Data-handling-with-Power-BI-and-Python.html)
 
 ---
 
-- **3. DashboardFailureToPay**
-  - Containerization based on Docker for a machine learning binary classification application whose behavior is visualized on an interactive dashboard
-    - [View Project...](https://github.com/ONOKANA8/DashboardFailureToPay/tree/docker-app-branch)
+- **3. Failure To Pay Dashboard (Based on an Academic Project)**
+  - Developed a machine learning binary classification application, containerized with Docker. The model is served through a RESTful FastAPI API, and results are displayed on an interactive dashboard.
+    - [View Project](https://github.com/donat-konan33/DashboardFailureToPay)
+
+---
+
+- **4. Academic Project: Classification with Spark MLlib**
+  - Developed a classification model using Spark MLlib as part of an academic project.
+  - Implemented data preprocessing, feature engineering (Images features extraction), and model evaluation within the Spark ecosystem.
+  - [View Project](https://github.com/ONOKANA8/OC_Data_Scientist_P8)
+
+---
+
+- **5. Weather Data Analysis and Visualization with Power BI**
+  - Automated extraction of weather data to CSV files using `Python` and orchestrated workflows with `Apache Airflow`
+  - Utilized `Power Query` for data loading and transformation
+  - Modeled and visualized insights with `Power BI` and integrated `Python` scripts for advanced analytics
+    - [Read a detailed post about this project](https://onokana8.github.io/SolarPanelsNasa/2024/05/30/Analyzing-extracted-Data-handling-with-Power-BI-and-Python.html)
 
 ---
 
