@@ -172,20 +172,20 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ---
 
-- **3. Failure To Pay Dashboard (Based on an Academic Project)**
+- **4. Failure To Pay Dashboard (Based on an Academic Project)**
   - Developed a machine learning binary classification application, containerized with Docker. The model is served through a RESTful FastAPI API, and results are displayed on an interactive dashboard.
     - [View Project](https://github.com/donat-konan33/DashboardFailureToPay)
 
 ---
 
-- **4. Classification with Spark MLlib (Academic Project)**
+- **5. Classification with Spark MLlib (Academic Project)**
   - Developed a classification model using Spark MLlib as part of an academic project.
   - Implemented data preprocessing, feature engineering (Images features extraction), and model evaluation within the Spark ecosystem.
     - [View Project](https://github.com/ONOKANA8/OC_Data_Scientist_P8)
 
 ---
 
-- **5. Weather Data Analysis and Visualization with Power BI**
+- **6. Weather Data Analysis and Visualization with Power BI**
   - Automated extraction of weather data to CSV files using `Python` and orchestrated workflows with `Apache Airflow`
   - Utilized `Power Query` for data loading and transformation
   - Modeled and visualized insights with `Power BI` and integrated `Python` scripts for advanced analytics
