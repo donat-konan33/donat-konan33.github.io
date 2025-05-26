@@ -74,19 +74,18 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 [![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
 [![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
+- **Spectroscopy & Electrochemistry** :
+[![NMR](https://img.shields.io/badge/NMR-4B8BBE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance)
+[![IR](https://img.shields.io/badge/IR-FFB300?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Infrared_spectroscopy)
+[![EIS](https://img.shields.io/badge/EIS-00BFAE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Electrochemical_impedance_spectroscopy)
+[![Cyclic Voltammetry](https://img.shields.io/badge/Cyclic%20Voltammetry-7C4DFF?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Cyclic_voltammetry)
+[![Galvanostatic](https://img.shields.io/badge/Galvanostatic-FF5252?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Galvanostat)
+[![Column Chromatography](https://img.shields.io/badge/Column%20Chromatography-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Column_chromatography)
 ---
 
 ## <a id="work-experience"></a>💼 **Work Experience**
-### **Data Engineer**
-**Le Wagon** | Paris | **_Nov 2024 - Dec 2024_**
-<!--[Le Wagon Picture](assets/img/lewagon.jpeg)> <!-- Replace with your lewagon image -->
-- Collaborative project using `Git` and Pull Requests to Dev and Prod Environment
-- Setting up a `ETLT Pipeline` from many data sources using `Python`, `GCS` and `BigQuery`
-- Build data with `DBT` into data warehouse following Raw-Staging-Mart architecture
-- Orchestrate the entire Data Pipeline with` Apache Airflow`
-- Web App based on Data into Mart
-    - [View Project](https://github.com/SurEtBon)
-    - [View Web App HTML version](https://suretbon.fr/)
+### **Private Tutor (Physics and Mathematics)**
+**Acadomia** | Versailles/Savigny-sur-Orge | **_Sept 2024 - Present_**
 
 ---
 
@@ -96,6 +95,11 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 - Proof of concept : classification via `NLP` and computer Vision (`CNN`)
 - Dashboard web application via Streamlit framework and serving with an `API REST FastAPI`
 - Setting up a big data cloud architecture on `AWS` and transform with `Pyspark`, Spark API for Python
+
+---
+
+### **Private Tutor (Physics and Mathematics)**
+**Acadomia** | Versailles | **_Sept 2019 - Aug 2020_**
 
 ---
 
@@ -136,7 +140,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 - **1. Concealed Objects Detection Using Terahertz Imaging**
   - Built a deep learning solution for detecting concealed objects in terahertz images
   - Utilized the YOLOv8 convolutional neural network architecture with the PyTorch framework
-  - [View Project](https://github.com/donat-konan33/ConcealedObjectsDetection)
+    - [View Project](https://github.com/donat-konan33/ConcealedObjectsDetection)
 
 - **2. Solar Energy and Consumption Optimization**
   - **Part 1: Data Pipeline (Daily Extraction)**
@@ -144,16 +148,27 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
     - Optimized storage in GCS and loaded data into BigQuery
     - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
     - Orchestrated the pipeline with Apache Airflow, running on a GCP Virtual Machine
-    - [View Project](https://github.com/donat-konan33/airbyte_deployment)
-    - [Data Pipeline Scaling in progress...](https://github.com/donat-konan33/MetropolitanFranceWeather)
+      - [View Project](https://github.com/donat-konan33/airbyte_deployment)
+      - [Data Pipeline Scaling in progress...](https://github.com/donat-konan33/MetropolitanFranceWeather)
 
   - **Part 2: Web App and LLM AgentSunAI**
     - Developed a Streamlit web application for interactive visualization of weather statistics and trends using the `Plotly` library, updated daily for the next 7 days
     - Integrated an AI agent powered by the `deepseek/deepseek-r1:free` LLM to provide daily energy consumption recommendations based on typical household appliance usage and solar data
     - Deployed the application to a scalable environment on GCP Cloud Run using CI/CD pipelines with GitHub Actions
-    - [View Project](https://github.com/donat-konan33/weatherteam_streamlit_dashboard)
-    - [Currently migrating from GCP to local infrastructure (MINIO, Apache Iceberg, DBT, Spark, Docker)](https://weather-photovoltaic-app-775528963714.europe-west1.run.app/)
+      - [View Project](https://github.com/donat-konan33/weatherteam_streamlit_dashboard)
+      - [Currently migrating from GCP to local infrastructure (MINIO, Apache Iceberg, DBT, Spark, Docker)](https://weather-photovoltaic-app-775528963714.europe-west1.run.app/)
 
+---
+
+- **3. From Data Pipeline Building to France Restaurants Scoring (Academic Project)**
+<!--[Le Wagon Picture](assets/img/lewagon.jpeg)> <!-- Replace with your lewagon image -->
+- Collaborative project using `Git` and Pull Requests to Dev and Prod Environment
+- Setting up a `ETLT Pipeline` from many data sources using `Python`, `GCS` and `BigQuery`
+- Build data with `DBT` into data warehouse following Raw-Staging-Mart architecture
+- Orchestrate the entire Data Pipeline with` Apache Airflow`
+- Web App based on Data into Mart
+    - [View Project](https://github.com/SurEtBon)
+    - [View Web App HTML version](https://suretbon.fr/)
 
 ---
 
@@ -163,10 +178,10 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ---
 
-- **4. Academic Project: Classification with Spark MLlib**
+- **4. Classification with Spark MLlib (Academic Project)**
   - Developed a classification model using Spark MLlib as part of an academic project.
   - Implemented data preprocessing, feature engineering (Images features extraction), and model evaluation within the Spark ecosystem.
-  - [View Project](https://github.com/ONOKANA8/OC_Data_Scientist_P8)
+    - [View Project](https://github.com/ONOKANA8/OC_Data_Scientist_P8)
 
 ---
 
