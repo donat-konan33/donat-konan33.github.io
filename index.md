@@ -157,6 +157,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
     - Deployed the application to a scalable environment on GCP Cloud Run using CI/CD pipelines with GitHub Actions
       - [View Project](https://github.com/donat-konan33/weatherteam_streamlit_dashboard)
       - [Currently migrating from GCP to local infrastructure (MINIO, Apache Iceberg, DBT, Spark, Docker)](https://weather-photovoltaic-app-775528963714.europe-west1.run.app/)
+      - 🎬 [demo video](https://donat-konan33.github.io/assets/videos/demo.mp4)
 
 ---
 
