@@ -149,6 +149,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
     - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
     - Orchestrated the pipeline with Apache Airflow, running on a GCP Virtual Machine
       - [View Project](https://github.com/donat-konan33/airbyte_deployment)
+      - [View local version using Minio and ClickHouse as alternatives to GCS and BigQuery](https://github.com/donat-konan33/EtltAirbyteMinioClickhouseDbtAirflow)
       - [Data Pipeline Scaling in progress...](https://github.com/donat-konan33/MetropolitanFranceWeather)
 
   - **Part 2: Web App and LLM AgentSunAI**
@@ -156,7 +157,6 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
     - Integrated an AI agent powered by the `deepseek/deepseek-r1:free` LLM to provide daily energy consumption recommendations based on typical household appliance usage and solar data
     - Deployed the application to a scalable environment on GCP Cloud Run using CI/CD pipelines with GitHub Actions
       - [View Project](https://github.com/donat-konan33/weatherteam_streamlit_dashboard)
-      - [Currently migrating from GCP to local infrastructure (MINIO, Apache Iceberg, DBT, Spark, Docker)](https://weather-photovoltaic-app-775528963714.europe-west1.run.app/)
       - 🎬 [demo video](https://donat-konan33.github.io/assets/videos/demo.mp4)
 
 ---
