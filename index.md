@@ -81,11 +81,12 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 [![Cyclic Voltammetry](https://img.shields.io/badge/Cyclic%20Voltammetry-7C4DFF?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Cyclic_voltammetry)
 [![Galvanostatic](https://img.shields.io/badge/Galvanostatic-FF5252?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Galvanostat)
 [![Column Chromatography](https://img.shields.io/badge/Column%20Chromatography-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Column_chromatography)
+
 ---
 
 ## <a id="work-experience"></a>💼 **Work Experience**
 ### **Private Tutor (Physics and Mathematics)**
-**Acadomia** | Versailles/Savigny-sur-Orge | **_Sept 2024 - Present_**
+**Acadomia** | Versailles/Massy | **_Sept 2024 - Jul 2025_**
 
 ---
 
@@ -137,22 +138,36 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ## <a id="projects"></a>🚀 **Projects**
 
-- **1. Concealed Objects Detection Using Terahertz Imaging**
-  - Built a deep learning solution for detecting concealed objects in terahertz images
-  - Utilized the YOLOv8 convolutional neural network architecture with the PyTorch framework
-    - [View Project](https://github.com/donat-konan33/ConcealedObjectsDetection)
+- **1. RAG APP connected to Google Drive Storage system (Prototype)**
+    - Disigned a secure RAG pipeline for Google Drive documents
+    - Authentication via ``Google OAuth2`` (read-only)
+    - Document extraction, chunking, embeddings with ``Sentence Transformers`` (multi-qa-mpnet-base-dot-v1 specialized in Q&A)
+    - Indexed into ``ChromaDB`` for ``semantic search``
+    - Chatbot interface built with Gradio, connected to ``Anthropic Claude Sonnet 3.7 LLM``
+    - Context-aware answers with source links ``retrieval`` via ``get_url tool``
+      - [View Project](https://github.com/donat-konan33/GoogleDriveAgenticIARag.git)
+      - 🎬 [demo video](assets/videos/demo-rag.mp4)
 
-- **2. Solar Energy and Consumption Optimization**
+
+- **2. Solar Energy and Consumption Optimization (Local deployment)**
+    - Designed and implemented an ETLT pipeline aggregating data from multiple sources using `Airbyte OSS`, `Python`, `Minio`, and `ClickHouse`
+    - Data retrieved via an ``EL`` with Airbyte OSS
+    - Optimized storage in Minio and loaded data into ClickHouse Data Warehouse
+    - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
+    - Create a Data Serving system connected to the Warehouse via ``SqlAlchemy`` and an ``API Restful FastAPI App``
+    - All parts are up with docker and docker compose
+      - [View local data pipeline deployment as an alternative to GCS and BigQuery](https://github.com/donat-konan33/EtltAirbyteMinioClickhouseDbtAirflow)
+      - [View the Optimized streamlit fronted App with cached system and connected to data warehouse via API](https://github.com/donat-konan33/ClickHouseWeatherAnalyticsDashboard.git)
+
+- **3. Solar Energy and Consumption Optimization (Project deployed to GCP)**
   - **Part 1: Data Pipeline (Daily Extraction)**
     - Designed and implemented an ETLT pipeline aggregating data from multiple sources using `Airbyte`, `Python`, `GCS`, and `BigQuery`
     - Optimized storage in GCS and loaded data into BigQuery
     - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
     - Orchestrated the pipeline with Apache Airflow, running on a GCP Virtual Machine
       - [View Project](https://github.com/donat-konan33/airbyte_deployment)
-      - [View local version using Minio and ClickHouse as alternatives to GCS and BigQuery](https://github.com/donat-konan33/EtltAirbyteMinioClickhouseDbtAirflow)
-      - [Data Pipeline Scaling in progress...](https://github.com/donat-konan33/MetropolitanFranceWeather)
 
-  - **Part 2: Web App and LLM AgentSunAI**
+  - **Part 2: Web App leveraging LLM to provide Intelligent Answers based on Prompt**
     - Developed a Streamlit web application for interactive visualization of weather statistics and trends using the `Plotly` library, updated daily for the next 7 days
     - Integrated an AI agent powered by the `deepseek/deepseek-r1:free` LLM to provide daily energy consumption recommendations based on typical household appliance usage and solar data
     - Deployed the application to a scalable environment on GCP Cloud Run using CI/CD pipelines with GitHub Actions
@@ -161,7 +176,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ---
 
-- **3. From Data Pipeline Building to France Restaurants Scoring (Academic Project)**
+- **4. From Data Pipeline Building to France Restaurants Scoring (Academic Project)**
 <!--[Le Wagon Picture](assets/img/lewagon.jpeg)> <!-- Replace with your lewagon image -->
 - Collaborative project using `Git` and Pull Requests to Dev and Prod Environment
 - Setting up a `ETLT Pipeline` from many data sources using `Python`, `GCS` and `BigQuery`
@@ -173,20 +188,27 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ---
 
-- **4. Failure To Pay Dashboard (Based on an Academic Project)**
+- **5. Concealed Objects Detection Using Terahertz Imaging**
+  - Built a deep learning solution for detecting concealed objects in terahertz images
+  - Utilized the YOLOv8 convolutional neural network architecture with the PyTorch framework
+    - [View Project](https://github.com/donat-konan33/ConcealedObjectsDetection)
+
+---
+
+- **6. Failure To Pay Dashboard (Based on an Academic Project)**
   - Developed a machine learning binary classification application, containerized with Docker. The model is served through a RESTful FastAPI API, and results are displayed on an interactive dashboard.
     - [View Project](https://github.com/donat-konan33/DashboardFailureToPay)
 
 ---
 
-- **5. Classification with Spark MLlib (Academic Project)**
+- **7. Classification with Spark MLlib (Academic Project)**
   - Developed a classification model using Spark MLlib as part of an academic project.
   - Implemented data preprocessing, feature engineering (Images features extraction), and model evaluation within the Spark ecosystem.
     - [View Project](https://github.com/ONOKANA8/OC_Data_Scientist_P8)
 
 ---
 
-- **6. Weather Data Analysis and Visualization with Power BI**
+- **8. Weather Data Analysis and Visualization with Power BI**
   - Automated extraction of weather data to CSV files using `Python` and orchestrated workflows with `Apache Airflow`
   - Utilized `Power Query` for data loading and transformation
   - Modeled and visualized insights with `Power BI` and integrated `Python` scripts for advanced analytics
