@@ -178,13 +178,13 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 - **4. From Data Pipeline Building to France Restaurants Scoring (Academic Project)**
 <!--[Le Wagon Picture](assets/img/lewagon.jpeg)> <!-- Replace with your lewagon image -->
-- Collaborative project using `Git` and Pull Requests to Dev and Prod Environment
-- Setting up a `ETLT Pipeline` from many data sources using `Python`, `GCS` and `BigQuery`
-- Build data with `DBT` into data warehouse following Raw-Staging-Mart architecture
-- Orchestrate the entire Data Pipeline with` Apache Airflow`
-- Web App based on Data into Mart
-    - [View Project](https://github.com/SurEtBon)
-    - [View Web App HTML version](https://suretbon.fr/)
+  - Collaborative project using `Git` and Pull Requests to Dev and Prod Environment
+  - Setting up a `ETLT Pipeline` from many data sources using `Python`, `GCS` and `BigQuery`
+  - Build data with `DBT` into data warehouse following Raw-Staging-Mart architecture
+  - Orchestrate the entire Data Pipeline with` Apache Airflow`
+  - Web App based on Data into Mart
+      - [View Project](https://github.com/SurEtBon)
+      - [View Web App HTML version](https://suretbon.fr/)
 
 ---
 
