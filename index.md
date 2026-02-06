@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Donatien Konan | Data Science, Engineering, and DataOps Portfolio
+title: Donatien Konan | Data Science, Engineering Portfolio
 ---
 
 <!-- Toggle Button -->
@@ -21,19 +21,18 @@ title: Donatien Konan | Data Science, Engineering, and DataOps Portfolio
     </div>
 </div>
 
-## **Data Engineer | Data Scientist | Data Analyst**
+## **Data Engineer | Data Scientist | Energy Scientist**
 ---
 
 ## <a id="about"></a> 👨🏻‍💻 **About Me**
 
 <!--[Profile Picture](assets/img/profile.jpg)>  <!-- Replace with your profile image -->
 
-Hi, I am Donatien, an ambitious Data Scientist and Data Engineer keen on leveraging technology to solve complex problems.
+Hi, I’m Donatien, a scientist trained in chemistry and data science, with a strong interest in applying data-driven and machine learning approaches to problems in energy and physical sciences.
 
-I have worked on a collaborative classification of restaurant web application project, built scalable data pipelines and deployed solutions across my short internship experience at LE WAGON after training. I also do my own projects that gather skills around Data Science, DataOps and CI/CD. My expertise spans Data Science, Data Engineering, Machine Learning and DataOps (I continue my improvement).
+My background combines physico-chemistry of materials for energy with hands-on experience in data science, machine learning, and data engineering. Through academic research and applied projects, I have developed solid foundations in data processing, modeling, and reproducible pipelines, which I aim to leverage in scientific contexts involving complex physical and chemical data.
 
-I am eager to contribute to high-impact, data-driven solutions and continuously expand my expertise in AI, infrastructure, and software scalability.
-
+While my current projects focus on data science and machine learning methodologies, my long-term objective is to apply these tools to interdisciplinary research topics such as materials science, physico-chemistry, and energy-related systems, contributing to the development of sustainable and high-impact scientific solutions.
 ---
 
 
@@ -130,7 +129,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ---
 
-### **M.S. in Electrical Energy Storage Materials Science**
+### **M.S. in Multifunctional Materials for Energy Science**
 **University of Tours** | Tours | **_Sep 2016 - Sep 2017_**
 <!--[University of Tours Logo](assets/img/univ-tours.svg)-->
 
@@ -138,7 +137,7 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ## <a id="projects"></a>🚀 **Projects**
 
-- **1. RAG APP connected to Google Drive Storage system (Prototype)**
+- **1. RAG (Retrieve-Augmented Generation) APP connected to Google Drive Storage system (Prototype)**
     - Disigned a secure RAG pipeline for Google Drive documents
     - Authentication via ``Google OAuth2`` (read-only)
     - Document extraction, chunking, embeddings with ``Sentence Transformers`` (multi-qa-mpnet-base-dot-v1 specialized in Q&A)
@@ -149,15 +148,11 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
       - 🎬 [demo video](assets/videos/demo-rag.mp4)
 
 
-- **2. Solar Energy and Consumption Optimization (Local deployment)**
-    - Designed and implemented an ETLT pipeline aggregating data from multiple sources using `Airbyte OSS`, `Python`, `Minio`, and `ClickHouse`
-    - Data retrieved via an ``EL`` with Airbyte OSS
-    - Optimized storage in Minio and loaded data into ClickHouse Data Warehouse
-    - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
-    - Create a Data Serving system connected to the Warehouse via ``SqlAlchemy`` and an ``API Restful FastAPI App``
-    - All parts are up with docker and docker compose
-      - [View local data pipeline deployment as an alternative to GCS and BigQuery](https://github.com/donat-konan33/EtltAirbyteMinioClickhouseDbtAirflow)
-      - [View the Optimized streamlit fronted App with cached system and connected to data warehouse via API](https://github.com/donat-konan33/ClickHouseWeatherAnalyticsDashboard.git)
+- **2. Concealed Objects Detection Using Terahertz Imaging**
+  - Built a deep learning solution for detecting concealed objects in terahertz images
+  - Utilized the YOLOv8 convolutional neural network architecture with the PyTorch framework
+    - [View Project](https://github.com/donat-konan33/ConcealedObjectsDetection)
+
 
 - **3. Solar Energy and Consumption Optimization (Project deployed to GCP)**
   - **Part 1: Data Pipeline (Daily Extraction)**
@@ -188,10 +183,15 @@ I am eager to contribute to high-impact, data-driven solutions and continuously 
 
 ---
 
-- **5. Concealed Objects Detection Using Terahertz Imaging**
-  - Built a deep learning solution for detecting concealed objects in terahertz images
-  - Utilized the YOLOv8 convolutional neural network architecture with the PyTorch framework
-    - [View Project](https://github.com/donat-konan33/ConcealedObjectsDetection)
+- **5. Solar Energy and Consumption Optimization (Local deployment)**
+    - Designed and implemented an ETLT pipeline aggregating data from multiple sources using `Airbyte OSS`, `Python`, `Minio`, and `ClickHouse`
+    - Data retrieved via an ``EL`` with Airbyte OSS
+    - Optimized storage in Minio and loaded data into ClickHouse Data Warehouse
+    - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
+    - Create a Data Serving system connected to the Warehouse via ``SqlAlchemy`` and an ``API Restful FastAPI App``
+    - All parts are up with docker and docker compose
+      - [View local data pipeline deployment as an alternative to GCS and BigQuery](https://github.com/donat-konan33/EtltAirbyteMinioClickhouseDbtAirflow)
+      - [View the Optimized streamlit fronted App with cached system and connected to data warehouse via API](https://github.com/donat-konan33/ClickHouseWeatherAnalyticsDashboard.git)
 
 ---
 
