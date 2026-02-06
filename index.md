@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Donatien Konan | Data Science, Engineering Portfolio
+title: Donatien Konan | Data Science, AI (ML/DL/LLM) Portfolio
 ---
 
 <!-- Toggle Button -->
@@ -21,18 +21,21 @@ title: Donatien Konan | Data Science, Engineering Portfolio
     </div>
 </div>
 
-## **Data Engineer | Data Scientist | Energy Scientist**
+## **Data Scientist | Energy Scientist**
+  - Exploring Data-Driven & Machine Learning Approaches for Energy and Physico-Chemistry
+
 ---
 
 ## <a id="about"></a> 👨🏻‍💻 **About Me**
 
 <!--[Profile Picture](assets/img/profile.jpg)>  <!-- Replace with your profile image -->
 
-Hi, I’m Donatien, a scientist trained in chemistry and data science, with a strong interest in applying data-driven and machine learning approaches to problems in energy and physical sciences.
+Hi, I'm Donatien, a scientist trained in chemistry and data science, with a strong interest in applying data-driven and machine learning approaches to problems in energy and physical sciences.
 
 My background combines physico-chemistry of materials for energy with hands-on experience in data science, machine learning, and data engineering. Through academic research and applied projects, I have developed solid foundations in data processing, modeling, and reproducible pipelines, which I aim to leverage in scientific contexts involving complex physical and chemical data.
 
 While my current projects focus on data science and machine learning methodologies, my long-term objective is to apply these tools to interdisciplinary research topics such as materials science, physico-chemistry, and energy-related systems, contributing to the development of sustainable and high-impact scientific solutions.
+
 ---
 
 
