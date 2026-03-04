@@ -140,74 +140,89 @@ While my current projects focus on data science and machine learning methodologi
 
 ## <a id="projects"></a>🚀 **Projects**
 
-- **1. RAG (Retrieve-Augmented Generation) APP connected to Google Drive Storage system (Prototype)**
-    - Disigned a secure RAG pipeline for Google Drive documents
+
+- **1. Home Credit Default Risk Prediction — End-to-End ML System (Based on Kaggle Competition Project)**
+- Developed a binary classification model for credit default prediction, achieving ~25% performance improvement over a random baseline classifier.
+- Designed a robust Feature Engineering pipeline and implemented techniques to handle class imbalance, improving model stability and predictive power.
+- Conducted advanced performance evaluation using:
+    - ROC-Curve and ROC-AUC
+    - Precision–Recall Curve
+    - Accuracy
+    - Average Precision (AP)
+
+- Achieved an Average Precision 21% higher than the baseline default rate, demonstrating strong performance in an imbalanced dataset context.
+- Defined and optimized a business-driven decision threshold, incorporating cost asymmetry:
+- False Negatives considered 10× more expensive than False Positives
+- Reduced overall prediction cost through threshold optimization.
+- Built a production-ready REST API using FastAPI to expose the trained model for remote inference.
+- Developed an interactive Streamlit frontend application, consuming the API to provide real-time predictions and model interpretability insights (SHAP-based explanations).
+- Implemented unit tests and integration tests to ensure robustness, reliability, and interoperability between backend and frontend components.
+    - [View Project Repository](https://github.com/donat-konan33/home-credit-default-risk.git)
+    - 🎬 [demo video](assets/videos/home-credit-demo.mp4)
+
+
+- **2. RAG (Retrieve-Augmented Generation) APP connected to Google Drive Storage system (Prototype)**
+    - Designed a secure RAG pipeline for Google Drive documents
     - Authentication via ``Google OAuth2`` (read-only)
     - Document extraction, chunking, embeddings with ``Sentence Transformers`` (multi-qa-mpnet-base-dot-v1 specialized in Q&A)
     - Indexed into ``ChromaDB`` for ``semantic search``
     - Chatbot interface built with Gradio, connected to ``Anthropic Claude Sonnet 3.7 LLM``
     - Context-aware answers with source links ``retrieval`` via ``get_url tool``
-      - [View Project](https://github.com/donat-konan33/GoogleDriveAgenticIARag.git)
+      - [View Project Repository](https://github.com/donat-konan33/GoogleDriveAgenticIARag.git)
       - 🎬 [demo video](assets/videos/demo-rag.mp4)
 
 
-- **2. Concealed Objects Detection Using Terahertz Imaging**
+- **3. Concealed Objects Detection Using Terahertz Imaging**
   - Built a deep learning solution for detecting concealed objects in terahertz images
   - Utilized the YOLOv8 convolutional neural network architecture with the PyTorch framework
-    - [View Project](https://github.com/donat-konan33/ConcealedObjectsDetection)
+    - [View Project Repository](https://github.com/donat-konan33/ConcealedObjectsDetection.git)
 
 
-- **3. Solar Energy and Consumption Optimization (Project deployed to GCP)**
+- **4. Solar Energy and Consumption Optimization (Project deployed to GCP)**
   - **Part 1: Data Pipeline (Daily Extraction)**
     - Designed and implemented an ETLT pipeline aggregating data from multiple sources using `Airbyte`, `Python`, `GCS`, and `BigQuery`
     - Optimized storage in GCS and loaded data into BigQuery
     - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
     - Orchestrated the pipeline with Apache Airflow, running on a GCP Virtual Machine
-      - [View Project](https://github.com/donat-konan33/airbyte_deployment)
+      - [View Project Repository](https://github.com/donat-konan33/airbyte_deployment.git)
 
   - **Part 2: Web App leveraging LLM to provide Intelligent Answers based on Prompt**
     - Developed a Streamlit web application for interactive visualization of weather statistics and trends using the `Plotly` library, updated daily for the next 7 days
     - Integrated an AI agent powered by the `deepseek/deepseek-r1:free` LLM to provide daily energy consumption recommendations based on typical household appliance usage and solar data
     - Deployed the application to a scalable environment on GCP Cloud Run using CI/CD pipelines with GitHub Actions
-      - [View Project](https://github.com/donat-konan33/weatherteam_streamlit_dashboard)
+      - [View Project Repository](https://github.com/donat-konan33/weatherteam_streamlit_dashboard.git)
       - 🎬 [demo video](https://donat-konan33.github.io/assets/videos/demo.mp4)
 
 ---
 
-- **4. From Data Pipeline Building to France Restaurants Scoring (Academic Project)**
+- **5. From Data Pipeline Building to France Restaurants Scoring (Academic Project)**
 <!--[Le Wagon Picture](assets/img/lewagon.jpeg)> <!-- Replace with your lewagon image -->
   - Collaborative project using `Git` and Pull Requests to Dev and Prod Environment
   - Setting up a `ETLT Pipeline` from many data sources using `Python`, `GCS` and `BigQuery`
   - Build data with `DBT` into data warehouse following Raw-Staging-Mart architecture
   - Orchestrate the entire Data Pipeline with` Apache Airflow`
   - Web App based on Data into Mart
-      - [View Project](https://github.com/SurEtBon)
+      - [View Project Repository](https://github.com/SurEtBon)
       - [View Web App HTML version](https://suretbon.fr/)
 
 ---
 
-- **5. Solar Energy and Consumption Optimization (Local deployment)**
+- **6. Solar Energy and Consumption Optimization (Local deployment)**
     - Designed and implemented an ETLT pipeline aggregating data from multiple sources using `Airbyte OSS`, `Python`, `Minio`, and `ClickHouse`
     - Data retrieved via an ``EL`` with Airbyte OSS
     - Optimized storage in Minio and loaded data into ClickHouse Data Warehouse
     - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
     - Create a Data Serving system connected to the Warehouse via ``SqlAlchemy`` and an ``API Restful FastAPI App``
     - All parts are up with docker and docker compose
-      - [View local data pipeline deployment as an alternative to GCS and BigQuery](https://github.com/donat-konan33/EtltAirbyteMinioClickhouseDbtAirflow)
+      - [View local data pipeline deployment as an alternative to GCS and BigQuery](https://github.com/donat-konan33/EtltAirbyteMinioClickhouseDbtAirflow.git)
       - [View the Optimized streamlit fronted App with cached system and connected to data warehouse via API](https://github.com/donat-konan33/ClickHouseWeatherAnalyticsDashboard.git)
 
 ---
 
-- **6. Failure To Pay Dashboard (Based on an Academic Project)**
-  - Developed a machine learning binary classification application, containerized with Docker. The model is served through a RESTful FastAPI API, and results are displayed on an interactive dashboard.
-    - [View Project](https://github.com/donat-konan33/DashboardFailureToPay)
-
----
-
-- **7. Classification with Spark MLlib (Academic Project)**
+- **7. Image Classification with Spark SQL/MLlib and Tensorflow via Resnet50 for CNN approach applying (Academic Project)**
   - Developed a classification model using Spark MLlib as part of an academic project.
   - Implemented data preprocessing, feature engineering (Images features extraction), and model evaluation within the Spark ecosystem.
-    - [View Project](https://github.com/ONOKANA8/OC_Data_Scientist_P8)
+    - [View Project Repository](https://github.com/ONOKANA8/OC_Data_Scientist_P8.git)
 
 ---
 
