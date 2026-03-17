@@ -21,8 +21,8 @@ title: Donatien Konan | Chemistry, Data Science, AI (ML/DL/LLM) Portfolio
     </div>
 </div>
 
-## **Data Scientist | Energy Scientist**
-  - Exploring Data-Driven & Machine Learning Approaches for Energy and Physico-Chemistry
+## **Data Scientist & Chemist  | Analytical Chemistry and Machine Learning**
+  - Exploring data-driven approaches and machine learning for chemical and materials research
 
 ---
 
