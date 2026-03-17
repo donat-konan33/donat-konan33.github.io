@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Donatien Konan | Data Science, AI (ML/DL/LLM) Portfolio
+title: Donatien Konan | Chemistry, Data Science, AI (ML/DL/LLM) Portfolio
 ---
 
 <!-- Toggle Button -->
@@ -30,7 +30,7 @@ title: Donatien Konan | Data Science, AI (ML/DL/LLM) Portfolio
 
 <!--[Profile Picture](assets/img/profile.jpg)>  <!-- Replace with your profile image -->
 
-Hi, I'm Donatien, a scientist trained in chemistry and data science, with a strong interest in applying data-driven and machine learning approaches to problems in energy and physical sciences.
+Hi, I'm Donatien, a scientist trained in chemistry and data science, with a strong interest in applying data-driven and machine learning approaches to problems in energy, chemical and physical sciences and else.
 
 My background combines physico-chemistry of materials for energy with hands-on experience in data science, machine learning, and data engineering. Through academic research and applied projects, I have developed solid foundations in data processing, modeling, and reproducible pipelines, which I aim to leverage in scientific contexts involving complex physical and chemical data.
 
@@ -41,7 +41,18 @@ While my current projects focus on data science and machine learning methodologi
 
 ## <a id="technical-skills"></a> 🛠️  **Technical Skills**
 
-- **Languages** :
+- **Chemistry Analytical tools** :
+
+[![NMR](https://img.shields.io/badge/NMR-4B8BBE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance)
+[![IR](https://img.shields.io/badge/IR-FFB300?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Infrared_spectroscopy)
+[![Column Chromatography](https://img.shields.io/badge/Column%20Chromatography-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Column_chromatography)
+[![Mass Spectrometry](https://img.shields.io/badge/Mass%20Spectrometry-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Mass_spectrometry)
+[![EIS](https://img.shields.io/badge/EIS-00BFAE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Electrochemical_impedance_spectroscopy)
+[![Cyclic Voltammetry](https://img.shields.io/badge/Cyclic%20Voltammetry-7C4DFF?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Cyclic_voltammetry)
+[![Galvanostatic](https://img.shields.io/badge/Galvanostatic-FF5252?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Galvanostat)
+
+
+- **Programming Languages** :
 [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/-SQL-003B57?style=flat&logo=postgresql)](https://www.postgresql.org/)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
@@ -76,38 +87,30 @@ While my current projects focus on data science and machine learning methodologi
 [![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
 [![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
-- **Spectroscopy & Electrochemistry** :
-[![NMR](https://img.shields.io/badge/NMR-4B8BBE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance)
-[![IR](https://img.shields.io/badge/IR-FFB300?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Infrared_spectroscopy)
-[![EIS](https://img.shields.io/badge/EIS-00BFAE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Electrochemical_impedance_spectroscopy)
-[![Cyclic Voltammetry](https://img.shields.io/badge/Cyclic%20Voltammetry-7C4DFF?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Cyclic_voltammetry)
-[![Galvanostatic](https://img.shields.io/badge/Galvanostatic-FF5252?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Galvanostat)
-[![Column Chromatography](https://img.shields.io/badge/Column%20Chromatography-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Column_chromatography)
 
 ---
 
 ## <a id="work-experience"></a>💼 **Work Experience**
 ### **Private Tutor (Physics and Mathematics)**
-**Acadomia** | Versailles/Massy | **_Sept 2024 - Jul 2025_**
+**Acadomia** | **_Sept 2024 - Jul 2025_**
 
----
 
-### **Data scientist**
+<!--### **Data scientist**
 **Openclassrooms** | Paris | **_Oct 2021 - Aug 2022_**
 <!--[Openclassroom Logo](assets/img/openclassrooms.png)>  <!-- Replace with your openclassroom image -->
-- Proof of concept : classification via `NLP` and computer Vision (`CNN`)
+<!--- Proof of concept : classification via `NLP` and computer Vision (`CNN`)
 - Dashboard web application via Streamlit framework and serving with an `API REST FastAPI`
-- Setting up a big data cloud architecture on `AWS` and transform with `Pyspark`, Spark API for Python
+- Setting up a big data cloud architecture on `AWS` and transform with `Pyspark`, Spark API for Python -->
 
 ---
 
 ### **Private Tutor (Physics and Mathematics)**
-**Acadomia** | Versailles | **_Sept 2019 - Aug 2020_**
+**Acadomia** |  **_Sept 2019 - Aug 2020_**
 
 ---
 
 ### **High School Physics Teacher**
-**Versailles Academy** | Ile-de-France | **_Jan 2018 - Aug 2021_**
+**Education Nationale** | Ile-de-France | **_Jan 2018 - Aug 2021_**
 <!--[academie_de_versailles Logo](assets/img/academie_de_versailles.png)> <!-- Replace with your academie_de_versailles image -->
 
 ---
@@ -138,8 +141,7 @@ While my current projects focus on data science and machine learning methodologi
 
 ---
 
-## <a id="projects"></a>🚀 **Projects**
-
+## <a id="projects"></a>🚀 **Data Projects**
 
 - **1. Home Credit Default Risk Prediction — End-to-End ML System (Based on Kaggle Competition Project)**
 - Developed a binary classification model for credit default prediction, achieving ~25% performance improvement over a random baseline classifier.
@@ -150,7 +152,7 @@ While my current projects focus on data science and machine learning methodologi
     - Accuracy
     - Average Precision (AP)
 
-- Achieved an Average Precision 21% higher than the baseline default rate, demonstrating strong performance in an imbalanced dataset context.
+- Achieved an Average Precision equals to 21%, which is 13% higher than the baseline default rate(8%), demonstrating strong performance in an imbalanced dataset context.
 - Defined and optimized a business-driven decision threshold, incorporating cost asymmetry:
 - False Negatives considered 10× more expensive than False Positives
 - Reduced overall prediction cost through threshold optimization.
