@@ -94,6 +94,7 @@ While I remain open to opportunities across the data field, my long-term objecti
 ### **Private Tutor (Physics and Mathematics)**
 **Acadomia** | **_Sept 2024 - Jul 2025_**
 
+---
 
 ### **Data scientist** (Data Science Training Experience)
 **Openclassrooms** | Paris | **_Oct 2021 - Aug 2022_**
