@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Donatien Konan | Chemistry, Data Science, AI (ML/DL/LLM) Portfolio
+title: Donatien Konan | Data Science & Applied Machine Learning across domains | AI & Machine Learning Portfolio
 ---
 
 <!-- Toggle Button -->
@@ -21,36 +21,30 @@ title: Donatien Konan | Chemistry, Data Science, AI (ML/DL/LLM) Portfolio
     </div>
 </div>
 
-## **Data Scientist & Chemist  | Analytical Chemistry and Machine Learning**
-  - Exploring data-driven approaches and machine learning for chemical and materials research
+## **Data Scientist**
+  - Applied Machine Learning and Data Science across business, chemistry, and materials science
 
 ---
+
+
 
 ## <a id="about"></a> 👨🏻‍💻 **About Me**
 
 <!--[Profile Picture](assets/img/profile.jpg)>  <!-- Replace with your profile image -->
 
-Hi, I'm Donatien, a scientist trained in chemistry and data science, with a strong interest in applying data-driven and machine learning approaches to problems in energy, chemical and physical sciences and else.
 
-My background combines physico-chemistry of materials for energy with hands-on experience in data science, machine learning, and data engineering. Through academic research and applied projects, I have developed solid foundations in data processing, modeling, and reproducible pipelines, which I aim to leverage in scientific contexts involving complex physical and chemical data.
+Hi, I'm Donatien, a scientist trained in chemistry and data science, with solid foundations in analytical chemistry, machine learning, and data engineering.
 
-While my current projects focus on data science and machine learning methodologies, my long-term objective is to apply these tools to interdisciplinary research topics such as materials science, physico-chemistry, and energy-related systems, contributing to the development of sustainable and high-impact scientific solutions.
+My experience spans projects across diverse domains, including business and service-oriented sectors, where I have developed practical skills in data processing, modeling, and building reproducible data workflows. These projects reflect my ability to translate data into actionable insights and support decision-making processes.
+
+I am particularly interested in exploring how data science and data engineering can improve performance, reliability, and interpretability in industrial and scientific environments. My upcoming projects aim to investigate real-world challenges in analytical chemistry and industry through proof-of-concept (POC) solutions, focusing on practical impact and explainable results.
+
+While I remain open to opportunities across the data field, my long-term objective is to contribute to data-driven innovation in industrial and scientific contexts by designing robust, transparent, and efficient data solutions.
 
 ---
 
 
 ## <a id="technical-skills"></a> 🛠️  **Technical Skills**
-
-- **Chemistry Analytical tools** :
-
-[![NMR](https://img.shields.io/badge/NMR-4B8BBE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance)
-[![IR](https://img.shields.io/badge/IR-FFB300?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Infrared_spectroscopy)
-[![Column Chromatography](https://img.shields.io/badge/Column%20Chromatography-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Column_chromatography)
-[![Mass Spectrometry](https://img.shields.io/badge/Mass%20Spectrometry-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Mass_spectrometry)
-[![EIS](https://img.shields.io/badge/EIS-00BFAE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Electrochemical_impedance_spectroscopy)
-[![Cyclic Voltammetry](https://img.shields.io/badge/Cyclic%20Voltammetry-7C4DFF?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Cyclic_voltammetry)
-[![Galvanostatic](https://img.shields.io/badge/Galvanostatic-FF5252?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Galvanostat)
-
 
 - **Programming Languages** :
 [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python)](https://www.python.org/)
@@ -76,9 +70,17 @@ While my current projects focus on data science and machine learning methodologi
 [![Airbyte](https://img.shields.io/badge/-Airbyte-00B4A1?style=flat&logo=airbyte)](https://airbyte.com/)
 [![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![PostgresSQL](https://img.shields.io/badge/-PostgreSQL-4479A1?style=flat&logo)](https://www.postgresql.org/)
-[![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb)](https://www.mongodb.com/)
 [![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-F7931E?style=flat&logo=scikit-learn)](https://scikit-learn.org/stable/)
 [![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+
+- **Chemistry Analytical tools** :
+[![NMR](https://img.shields.io/badge/NMR-4B8BBE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance)
+[![IR](https://img.shields.io/badge/IR-FFB300?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Infrared_spectroscopy)
+[![Column Chromatography](https://img.shields.io/badge/Column%20Chromatography-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Column_chromatography)
+[![Mass Spectrometry](https://img.shields.io/badge/Mass%20Spectrometry-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Mass_spectrometry)
+[![EIS](https://img.shields.io/badge/EIS-00BFAE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Electrochemical_impedance_spectroscopy)
+[![Cyclic Voltammetry](https://img.shields.io/badge/Cyclic%20Voltammetry-7C4DFF?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Cyclic_voltammetry)
+[![Galvanostatic](https://img.shields.io/badge/Galvanostatic-FF5252?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Galvanostat)
 
 
 - **Tools & Frameworks** :

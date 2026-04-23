@@ -1,7 +1,7 @@
-title: Donatien Konan | Data Science, AI Portfolio
-logo: assets/img/profile.jpg
-description: "A portfolio showcasing my work in data science, data engineering and AI (ML/DL/LLM) projects."
+title: Donatien Konan | Data Science & AI/Machine Learning Portfolio"
 remote_theme: pages-themes/minimal@v0.2.0
+logo: assets/img/profile.jpg
+description: "A portfolio showcasing my work in Data Science & Applied Machine Learning across domains."
 plugins:
   - jekyll-remote-theme  # Ensure this is included to use the remote theme
   - jekyll-sass-converter
