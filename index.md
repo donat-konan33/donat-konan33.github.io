@@ -70,7 +70,6 @@ While I remain open to opportunities across the data field, my long-term objecti
 [![Airbyte](https://img.shields.io/badge/-Airbyte-00B4A1?style=flat&logo=airbyte)](https://airbyte.com/)
 [![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![PostgresSQL](https://img.shields.io/badge/-PostgreSQL-4479A1?style=flat&logo)](https://www.postgresql.org/)
-[![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-F7931E?style=flat&logo=scikit-learn)](https://scikit-learn.org/stable/)
 [![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 
 - **Chemistry Analytical tools** :
@@ -89,7 +88,6 @@ While I remain open to opportunities across the data field, my long-term objecti
 [![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
 [![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
-
 ---
 
 ## <a id="work-experience"></a>💼 **Work Experience**
@@ -97,12 +95,27 @@ While I remain open to opportunities across the data field, my long-term objecti
 **Acadomia** | **_Sept 2024 - Jul 2025_**
 
 
-<!--### **Data scientist**
+### **Data scientist** (Data Science Training Experience)
 **Openclassrooms** | Paris | **_Oct 2021 - Aug 2022_**
-<!--[Openclassroom Logo](assets/img/openclassrooms.png)>  <!-- Replace with your openclassroom image -->
-<!--- Proof of concept : classification via `NLP` and computer Vision (`CNN`)
-- Dashboard web application via Streamlit framework and serving with an `API REST FastAPI`
-- Setting up a big data cloud architecture on `AWS` and transform with `Pyspark`, Spark API for Python -->
+
+- Statistical analysis and data exploration
+  - Descriptive statistics
+  - Statistical hypothesis testing
+  - Probability distributions and confidence intervals
+- Multivariate analysis and dimensionality reduction
+  - Principal Component Analysis (PCA)
+- Machine learning modeling
+  - Supervised and unsupervised learning methods
+  - Hyperparameter tuning and model evaluation
+- Model development and evaluation for data analysis
+- Proofs of concept (POCs)
+  - Text and image classification using NLP techniques
+  - Computer vision and image processing using OpenCV
+  - Convolutional Neural Networks (CNNs) for image classification
+- Data visualization
+  - Dashboard creation for data insights
+- Introduction to cloud computing
+  - AWS basics and cloud environments
 
 ---
 
@@ -114,6 +127,9 @@ While I remain open to opportunities across the data field, my long-term objecti
 ### **High School Physics Teacher**
 **Education Nationale** | Ile-de-France | **_Jan 2018 - Aug 2021_**
 <!--[academie_de_versailles Logo](assets/img/academie_de_versailles.png)> <!-- Replace with your academie_de_versailles image -->
+- Preparation and supervision of laboratory practical sessions (TP classes)
+- Simplification and communication of scientific concepts to students
+- Application of health, safety, and laboratory safety procedures in experimental environments
 
 ---
 
@@ -121,6 +137,11 @@ While I remain open to opportunities across the data field, my long-term objecti
 **PCM2E** | Tours | **_Apr 2017 - Jul 2017_**
 <!--[PCM2E Logo](assets/img/PCM2E.png)-->
 - Development and Characterization of supercapacitor electrode materials in chemistry Laboratory
+  - Chemical synthesis of electroactive organic monomers
+  - Determination of optimal experimental conditions for electrochemical polymerization
+  - Electrochemical polymerization via p-doping through anion insertion
+  - Physicochemical characterization of supercapacitor electrodes
+  - Analysis and interpretation of experimental data
 
 ---
 
@@ -207,7 +228,6 @@ While I remain open to opportunities across the data field, my long-term objecti
   - Orchestrate the entire Data Pipeline with` Apache Airflow`
   - Web App based on Data into Mart
       - [View Project Repository](https://github.com/SurEtBon)
-      - [View Web App HTML version](https://suretbon.fr/)
 
 ---
 
