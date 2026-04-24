@@ -168,23 +168,23 @@ While I remain open to opportunities across the data field, my long-term objecti
 ## <a id="projects"></a>🚀 **Data Projects**
 
 - **1. Home Credit Default Risk Prediction — End-to-End ML System (Based on Kaggle Competition Project)**
-- Developed a binary classification model for credit default prediction, achieving ~25% performance improvement over a random baseline classifier.
-- Designed a robust Feature Engineering pipeline and implemented techniques to handle class imbalance, improving model stability and predictive power.
-- Conducted advanced performance evaluation using:
-    - ROC-Curve and ROC-AUC
-    - Precision–Recall Curve
-    - Accuracy
-    - Average Precision (AP)
+    - Developed a binary classification model for credit default prediction, achieving ~25% performance improvement over a random baseline classifier.
+    - Designed a robust Feature Engineering pipeline and implemented techniques to handle class imbalance, improving model stability and predictive power.
+    - Conducted advanced performance evaluation using:
+        - ROC-Curve and ROC-AUC
+        - Precision–Recall Curve
+        - Accuracy
+        - Average Precision (AP)
 
-- Achieved an Average Precision equals to 21%, which is 13% higher than the baseline default rate(8%), demonstrating strong performance in an imbalanced dataset context.
-- Defined and optimized a business-driven decision threshold, incorporating cost asymmetry:
-- False Negatives considered 10× more expensive than False Positives
-- Reduced overall prediction cost through threshold optimization.
-- Built a production-ready REST API using FastAPI to expose the trained model for remote inference.
-- Developed an interactive Streamlit frontend application, consuming the API to provide real-time predictions and model interpretability insights (SHAP-based explanations).
-- Implemented unit tests and integration tests to ensure robustness, reliability, and interoperability between backend and frontend components.
-    - [View Project Repository](https://github.com/donat-konan33/home-credit-default-risk.git)
-    - 🎬 [demo video](assets/videos/home-credit-demo.mp4)
+    - Achieved an Average Precision equals to 21%, which is 13% higher than the baseline default rate(8%), demonstrating strong performance in an imbalanced dataset context.
+    - Defined and optimized a business-driven decision threshold, incorporating cost asymmetry:
+    - False Negatives considered 10× more expensive than False Positives
+    - Reduced overall prediction cost through threshold optimization.
+    - Built a production-ready REST API using FastAPI to expose the trained model for remote inference.
+    - Developed an interactive Streamlit frontend application, consuming the API to provide real-time predictions and model interpretability insights (SHAP-based explanations).
+    - Implemented unit tests and integration tests to ensure robustness, reliability, and interoperability between backend and frontend components.
+        - [View Project Repository](https://github.com/donat-konan33/home-credit-default-risk.git)
+        - 🎬 [demo video](assets/videos/home-credit-demo.mp4)
 
 
 - **2. RAG (Retrieve-Augmented Generation) APP connected to Google Drive Storage system (Prototype)**
