@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Data science et chimie</title>
+  <desc id="desc">Visualisation abstraite d'un reseau de donnees, d'une molecule et d'un graphique scientifique.</desc>
+  <rect width="320" height="320" rx="160" fill="#dcece5"/>
+  <circle cx="160" cy="160" r="116" fill="#f5f6f1" stroke="#1d6b5d" stroke-width="4"/>
+  <path d="M73 210 121 166 161 190 223 106 256 128" fill="none" stroke="#1d6b5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <path d="M72 235h184" stroke="#17211f" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="73" cy="210" r="12" fill="#e1a45b" stroke="#17211f" stroke-width="4"/>
+  <circle cx="121" cy="166" r="12" fill="#fff" stroke="#17211f" stroke-width="4"/>
+  <circle cx="161" cy="190" r="12" fill="#e1a45b" stroke="#17211f" stroke-width="4"/>
+  <circle cx="223" cy="106" r="12" fill="#fff" stroke="#17211f" stroke-width="4"/>
+  <circle cx="256" cy="128" r="12" fill="#e1a45b" stroke="#17211f" stroke-width="4"/>
+  <g fill="none" stroke="#b36e29" stroke-width="5">
+    <circle cx="105" cy="91" r="20"/>
+    <circle cx="140" cy="72" r="14"/>
+    <circle cx="154" cy="105" r="15"/>
+    <path d="m122 82 8-5m-16 28 25-6m9-13-8-9"/>
+  </g>
+  <path d="M214 204v-34m27 34v-58m-54 58v-16" stroke="#17211f" stroke-linecap="round" stroke-width="10"/>
+</svg>
