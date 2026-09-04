@@ -1,52 +1,34 @@
 ---
 layout: default
-title: Donatien Konan | Data Science & Applied Machine Learning across domains | AI & Machine Learning Portfolio
+title: Donatien Konan | Data Science, IA et Machine Learning
 ---
 
-<!-- Toggle Button -->
-<button id="toc-toggle" class="toc-toggle-btn">📑 Show TOC</button>
-
-<!-- TOC Container -->
-<div class="toc-container hidden" id="toc">
-    <div class="toc">
-        <h3>📑 Table of Contents</h3>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#work-experience">Work Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#technical-skills">Technical Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Get in Touch</a></li>
-        </ul>
-    </div>
+<div class="hero-block">
+<h2 class="hero-title">Data Scientist</h2>
+<p class="hero-lead">Je transforme des données complexes en solutions utiles, explicables et prêtes à être déployées.</p>
 </div>
 
-## **Data Scientist**
-  - Applied Machine Learning and Data Science across business, chemistry, and materials science
-
 ---
 
 
 
-## <a id="about"></a> 👨🏻‍💻 **About Me**
+## <a id="about"></a> 👨🏻‍💻 **À propos de moi**
 
-<!--[Profile Picture](assets/img/profile.jpg)>  <!-- Replace with your profile image -->
+<div class="about-intro">
+<img class="about-visual" src="{{ '/assets/img/data-science-chemistry.svg' | relative_url }}" alt="Illustration de données, chimie et physique">
+<div>
+Ingénieur data issu d’une formation scientifique, avec un parcours en chimie des matériaux et en data science, je conçois et développe des solutions de traitement, d’analyse et de modélisation des données, de la préparation à l’évaluation des modèles.
 
-
-Hi, I'm Donatien, a scientist trained in chemistry and data science, with solid foundations in analytical chemistry, machine learning, and data engineering.
-
-My experience spans projects across diverse domains, including business and service-oriented sectors, where I have developed practical skills in data processing, modeling, and building reproducible data workflows. These projects reflect my ability to translate data into actionable insights and support decision-making processes.
-
-I am particularly interested in exploring how data science and data engineering can improve performance, reliability, and interpretability in industrial and scientific environments. My upcoming projects aim to investigate real-world challenges in analytical chemistry and industry through proof-of-concept (POC) solutions, focusing on practical impact and explainable results.
-
-While I remain open to opportunities across the data field, my long-term objective is to contribute to data-driven innovation in industrial and scientific contexts by designing robust, transparent, and efficient data solutions.
+Mes projets portent notamment sur la segmentation client et la prédiction du défaut de paiement. J’y développe des workflows reproductibles, automatise certaines étapes et transforme des données complexes en résultats exploitables pour la prise de décision.
+</div>
+</div>
 
 ---
 
 
-## <a id="technical-skills"></a> 🛠️  **Technical Skills**
+## <a id="technical-skills"></a> 🛠️  **Compétences techniques**
 
-- **Programming Languages** :
+- **Langages de programmation** :
 [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/-SQL-003B57?style=flat&logo=postgresql)](https://www.postgresql.org/)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
@@ -62,7 +44,7 @@ While I remain open to opportunities across the data field, my long-term objecti
 [![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat&logo=python&logoColor=white)](https://spacy.io/)
 
 
-- **Data Engineering** :
+- **Ingénierie des données** :
 [![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git)](https://git-scm.com/)
 [![Apache Spark](https://img.shields.io/badge/-Apache%20Spark-E25A1C?style=flat&logo=apache-spark)](https://spark.apache.org/)
 [![dbt](https://img.shields.io/badge/-dbt-FF4F00?style=flat&logo=dbt)](https://www.getdbt.com/)
@@ -72,7 +54,7 @@ While I remain open to opportunities across the data field, my long-term objecti
 [![PostgresSQL](https://img.shields.io/badge/-PostgreSQL-4479A1?style=flat&logo)](https://www.postgresql.org/)
 [![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 
-- **Chemistry Analytical tools** :
+- **Outils de chimie analytique** :
 [![NMR](https://img.shields.io/badge/NMR-4B8BBE?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance)
 [![IR](https://img.shields.io/badge/IR-FFB300?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Infrared_spectroscopy)
 [![Column Chromatography](https://img.shields.io/badge/Column%20Chromatography-43A047?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Column_chromatography)
@@ -82,7 +64,7 @@ While I remain open to opportunities across the data field, my long-term objecti
 [![Galvanostatic](https://img.shields.io/badge/Galvanostatic-FF5252?style=flat&logo=google-scholar&logoColor=white)](https://en.wikipedia.org/wiki/Galvanostat)
 
 
-- **Tools & Frameworks** :
+- **Outils et frameworks** :
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)](https://github.com/features/actions)
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black)](https://powerbi.microsoft.com/)
 [![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
@@ -90,179 +72,219 @@ While I remain open to opportunities across the data field, my long-term objecti
 
 ---
 
-### **Data scientist** (Data Science Training Experience)
-**Openclassrooms** | Paris | **_Oct 2021 - Aug 2022_**
-
-- Statistical analysis and data exploration
-  - Descriptive statistics
-  - Statistical hypothesis testing
-  - Probability distributions and confidence intervals
-- Multivariate analysis and dimensionality reduction
-  - Principal Component Analysis (PCA)
-- Machine learning modeling
-  - Supervised and unsupervised learning methods
-  - Hyperparameter tuning and model evaluation
-- Model development and evaluation for data analysis
-- Proofs of concept (POCs)
-  - Text and image classification using NLP techniques
-  - Computer vision and image processing using OpenCV
-  - Convolutional Neural Networks (CNNs) for image classification
-- Data visualization
-  - Dashboard creation for data insights
-- Introduction to cloud computing
-  - AWS basics and cloud environments
+## <a id="work-experience"></a> 💼 **Expériences professionnelles**
 
 ---
 
-### **Private Tutor (Physics and Mathematics)**
-**Acadomia** |  **_Sept 2019 - Aug 2020_**
+<div class="experience-heading">
+<img class="company-logo" src="{{ '/assets/img/academie_de_versailles.png' | relative_url }}" alt="Logo de l'Académie de Versailles">
+<h3>Professeur de physique-chimie</h3>
+</div>
+<p class="experience-company"><strong>Éducation nationale</strong> | Île-de-France | <strong><em>Janv. 2018 - Août 2021</em></strong></p>
+- Préparation et encadrement de travaux pratiques en laboratoire.
+- Vulgarisation et transmission de concepts scientifiques aux élèves.
+- Application des règles d'hygiène, de santé et de sécurité en environnement expérimental.
 
 ---
 
-### **High School Physics Teacher**
-**Education Nationale** | Ile-de-France | **_Jan 2018 - Aug 2021_**
-<!--[academie_de_versailles Logo](assets/img/academie_de_versailles.png)> <!-- Replace with your academie_de_versailles image -->
-- Preparation and supervision of laboratory practical sessions (TP classes)
-- Simplification and communication of scientific concepts to students
-- Application of health, safety, and laboratory safety procedures in experimental environments
+<div class="experience-heading">
+<img class="company-logo" src="{{ '/assets/img/acadomia.webp' | relative_url }}" alt="Logo d'Acadomia">
+<h3>Enseignant particulier en physique et mathématiques</h3>
+</div>
+<p class="experience-company"><strong>Acadomia</strong> | <strong><em>Sept. 2019 - Août 2020</em></strong></p>
 
 ---
 
-### **R&D Battery and Supercapacitor Engineer**
-**PCM2E** | Tours | **_Apr 2017 - Jul 2017_**
-<!--[PCM2E Logo](assets/img/PCM2E.png)-->
-- Development and Characterization of supercapacitor electrode materials in chemistry Laboratory
-  - Chemical synthesis of electroactive organic monomers
-  - Determination of optimal experimental conditions for electrochemical polymerization
-  - Electrochemical polymerization via p-doping through anion insertion
-  - Physicochemical characterization of supercapacitor electrodes
-  - Analysis and interpretation of experimental data
+<div class="experience-heading">
+<img class="company-logo" src="{{ '/assets/img/PCM2E.png' | relative_url }}" alt="Logo de PCM2E">
+<h3>Ingénieur R&D batteries et supercondensateurs</h3>
+</div>
+<p class="experience-company"><strong>PCM2E</strong> | Tours | <strong><em>Avr. 2017 - Juil. 2017</em></strong></p>
+- Développement et caractérisation de matériaux d'électrodes pour supercondensateurs en laboratoire de chimie.
+  - Synthèse chimique de monomères organiques électroactifs.
+  - Détermination des conditions expérimentales optimales de polymérisation électrochimique.
+  - Caractérisation physicochimique des électrodes et interprétation des données expérimentales.
 
 ---
 
-## <a id="education"></a>📚 **Education**
-### **BootCamp in Data Engineering and Sofware Engineering**
-**Le Wagon School** | Paris | **_Oct 2024 - Dec 2024_**
-<!--[Le Wagon Logo](assets/img/univ-tours.svg)-->
+## <a id="education"></a>📚 **Formation**
+<div class="education-heading">
+<img class="school-logo" src="{{ '/assets/img/lewagon.jpeg' | relative_url }}" alt="Logo du Wagon">
+<div>
+<h3>Bootcamp en data engineering et software engineering</h3>
+<p><strong>Le Wagon</strong> | Paris | <strong><em>Oct. 2024 - Déc. 2024</em></strong></p>
+</div>
+</div>
+
+**Parcours de formation**
+
+- Développement orienté tests (TDD) pour garantir la fiabilité et la maintenabilité des applications data.
+- Conception et manipulation de bases de données relationnelles, transactionnelles et analytiques, avec modélisation et optimisation des requêtes SQL.
+- Conception de pipelines de données Big Data pour des traitements batch et temps réel, de l’ingestion à la transformation et au stockage.
+- Mise en place de contrôles et de tests de qualité des données afin de valider la conformité et la fiabilité des données traitées.
+- Déploiement de solutions Data dans le cloud Google : Cloud Run, Google Cloud Storage (GCS), BigQuery, et autres services GCP.
+
 
 ---
 
-### **Data Science**
-**OpenClassrooms & CentraleSupelec** | Paris | **_Oct 2021 - Aug 2022_**
-<!--[Openclassrooms & CentraleSupelec Logo](assets/img/centralesupelec.svg)-->
+<div class="education-heading">
+<span class="school-logos">
+<img class="school-logo" src="{{ '/assets/img/openclassrooms.png' | relative_url }}" alt="Logo d'OpenClassrooms">
+<img class="school-logo" src="{{ '/assets/img/centralesupelec.svg' | relative_url }}" alt="Logo de CentraleSupélec">
+</span>
+<div>
+<h3>Data Science</h3>
+<p><strong>OpenClassrooms & CentraleSupélec</strong> | Paris | <strong><em>Oct. 2021 - Août 2022</em></strong></p>
+</div>
+</div>
+
+**Parcours de formation**
+
+- Analyse statistique et exploration des données.
+  - Statistiques descriptives, tests d'hypothèses, distributions et intervalles de confiance.
+- Analyse multivariée et réduction dimensionnelle avec l'ACP.
+- Modélisation machine learning : méthodes supervisées et non supervisées, réglage d'hyperparamètres et évaluation.
+- Prototypes de classification de textes et d'images avec NLP, OpenCV et réseaux de neurones convolutionnels.
+- Visualisation des données et création de dashboards d'aide à la décision.
+- Introduction au cloud computing et aux environnements AWS.
 
 ---
 
-### **M.S. in Multifunctional Materials for Energy Science**
-**University of Tours** | Tours | **_Sep 2016 - Sep 2017_**
-<!--[University of Tours Logo](assets/img/univ-tours.svg)-->
+<div class="education-heading">
+<img class="school-logo" src="{{ '/assets/img/univ-tours.svg' | relative_url }}" alt="Logo de l'Université de Tours">
+<div>
+<h3>Master Matériaux multifonctionnels pour les sciences de l'énergie</h3>
+<p><strong>Université de Tours</strong> | Tours | <strong><em>Sept. 2016 - Sept. 2017</em></strong></p>
+</div>
+</div>
+
+**Parcours de formation**
+
+- Dispositifs pour l'énergie
+   (Nouvelles générations des batteries, supercondensateurs avancés, conceptions,...)
+- Matériaux pour les nouvelles technologies
+   (Matériaux organiques conjugués, Membranes et séparateurs, Matériaux d'électrodes, conceptions)
+- Electrolytes et interfaces
+   (Milieux ioniques avancés, Mouillabilité, Mesure de surface spécifique, Etude de la porosité, conceptions)
+- Techniques de caractérisation des matériaux
+   (Microscopie en champ proche et caractérisation des propriétés physicochimiques de surface, Microscopie à Transmission)
+- Synthèse et croissance cristalline
+   (Physicochimie des Oxydes, Dépôts par voies liquides, gaz et plasma)
+- Physique des matériaux semi-conducteurs
+   (maîtriser les propriétés électriques des semi-conducteurs et le fonctionnement des composants actifs entrant dans la conception des circuits microélectroniques)
 
 ---
 
-## <a id="projects"></a>🚀 **Data Projects**
+## <a id="projects"></a>🚀 **Projets data**
 
-- **1. Home Credit Default Risk Prediction — End-to-End ML System (Kaggle-based project)**
+- **1. Cycle de vie d'un modèle MLflow : suivi, registre et inférence en production**
+  - Intégration de MLflow pour suivre les expériences de machine learning et gérer le cycle de vie des modèles.
+  - Centralisation des paramètres, métriques, métadonnées, tags et artefacts pour une traçabilité complète.
+  - Journalisation des paramètres, métriques, métadonnées, tags et artefacts pour une traçabilité complète.
+  - Configuration d'expériences MLflow dédiées à l'entraînement, au réentraînement et à l'évaluation.
+  - Enregistrement de pipelines scikit-learn complets combinant prétraitement et classification LightGBM.
+  - Mise en place du versionnement des modèles avec le registre MLflow.
+  - Gestion d'alias pour identifier et charger le modèle de production.
+  - Stockage du seuil de décision optimisé pour le métier avec le modèle enregistré.
+  - Construction d'un pipeline d'inférence capable de charger les modèles directement depuis le registre MLflow.
+  - Prise en charge de prédictions individuelles et par lots à partir des versions enregistrées.
+  - Reproductibilité assurée par la centralisation des artefacts, métadonnées et résultats d'évaluation.
+  - Transition claire entre expérimentation et inférence prête pour la production.
+      - [Voir le dépôt du projet](https://github.com/donat-konan33/home-credit-default-risk/tree/mlflow)
 
-  - Developed a binary classification model for credit default prediction in an imbalanced dataset context.
+- **2. Prédiction du risque de défaut Home Credit : système ML de bout en bout**
 
-  - Designed a robust feature engineering pipeline and applied class imbalance handling techniques, improving model stability and ranking performance.
-
-  - Evaluated model performance using multiple metrics:
+  - Développement d'un modèle de classification binaire pour prédire les défauts de paiement sur un jeu de données déséquilibré.
+  - Conception d'un pipeline robuste de feature engineering et de gestion du déséquilibre des classes.
+  - Évaluation du modèle avec plusieurs métriques :
     - ROC-AUC
     - Precision–Recall Curve
     - Average Precision (AP)
     - Accuracy
 
-  - Achieved an Average Precision of 21%, compared to a baseline default rate of 8%, indicating strong ranking improvement over a random classifier in an imbalanced setting.
+  - Obtention d'une Average Precision de 21 %, contre un taux de défaut de référence de 8 %, démontrant un classement nettement meilleur qu'un classifieur aléatoire.
 
-  - In production conditions, the model shows a precision of approximately 20% at the chosen operating threshold (≈80% false positives), highlighting the need for careful threshold tuning.
+  - En production, le modèle atteint environ 20 % de précision au seuil retenu, ce qui souligne l'importance d'un réglage fin du seuil.
 
-  - Defined a business-driven decision threshold incorporating asymmetric costs:
-    - False Negatives weighted 10× higher than False Positives
-    - Optimized threshold to minimize expected financial loss
+  - Définition d'un seuil de décision métier intégrant des coûts asymétriques :
+    - Faux négatifs pondérés 10 fois plus lourdement que les faux positifs.
+    - Seuil optimisé pour minimiser la perte financière attendue.
 
-  - Built a production-ready REST API using FastAPI for real-time inference.
+  - Construction d'une API REST prête pour la production avec FastAPI, pour l'inférence en temps réel.
+  - Développement d'une application Streamlit interactive consommant l'API, avec explicabilité basée sur SHAP.
 
-  - Developed an interactive Streamlit application consuming the API, including SHAP-based explainability.
+  - Mise en place de tests unitaires et d'intégration pour garantir la robustesse et la fiabilité du système.
+      - [Voir le dépôt du projet](https://github.com/donat-konan33/home-credit-default-risk.git)
+      - 🎬 [Voir la démonstration](assets/videos/home-credit-demo.mp4)
 
-  - Implemented unit and integration tests to ensure robustness and system reliability.
-          - [View Project Repository](https://github.com/donat-konan33/home-credit-default-risk.git)
-          - 🎬 [demo video](assets/videos/home-credit-demo.mp4)
+- **3. Application RAG connectée à Google Drive (prototype)**
+    - Conception d'un pipeline RAG sécurisé pour les documents Google Drive.
+    - Authentification via ``Google OAuth2`` en lecture seule.
+    - Extraction, découpage et vectorisation des documents avec ``Sentence Transformers``.
+    - Indexation dans ``ChromaDB`` pour la recherche sémantique.
+    - Interface chatbot construite avec Gradio et connectée à ``Anthropic Claude Sonnet 3.7 LLM``.
+    - Réponses contextualisées avec liens vers les sources.
+      - [Voir le dépôt du projet](https://github.com/donat-konan33/GoogleDriveAgenticIARag.git)
+      - 🎬 [Voir la démonstration](assets/videos/demo-rag.mp4)
+
+- **4. Segmentation de profils et monitoring MLOps**
+  - Développement d’une solution de segmentation de près de 95 000 clients e-commerce Olist.
+  - Création d’un pipeline RFMS : récence, fréquence, montant dépensé et satisfaction client.
+  - `Réduction dimensionnelle avec UMAP`, puis `clustering avec DBSCAN`.
+  - Identification de 7 profils clients exploitables pour personnaliser les actions marketing.
+  - Mise en place d’un pipeline MLOps avec MLflow, versionnement du modèle et prédiction sur de nouveaux clients.
+  - Suivi de la dérive des données avec les indicateurs PSI et la distance de Jensen-Shannon.
+  - Définition d’une stratégie de réentraînement mensuel basée sur la dégradation des performances.
+  - Projet industrialisé avec scripts reproductibles, tests ``pytest`` et contrôle qualité `ruff`.
+      - [Voir le dépôt du projet](git@github.com:donat-konan33/olist-ecommerce-client-clustering.git)
+
+- **5. Détection d'objets dissimulés par imagerie térahertz**
+  - Développement d'une solution de deep learning pour détecter des objets dissimulés dans des images térahertz.
+  - Utilisation de l'architecture de réseau convolutionnel YOLOv8 avec le framework PyTorch.
+    - [Voir le dépôt du projet](https://github.com/donat-konan33/ConcealedObjectsDetection.git)
 
 
-- **2. RAG (Retrieve-Augmented Generation) APP connected to Google Drive Storage system (Prototype)**
-    - Designed a secure RAG pipeline for Google Drive documents
-    - Authentication via ``Google OAuth2`` (read-only)
-    - Document extraction, chunking, embeddings with ``Sentence Transformers`` (multi-qa-mpnet-base-dot-v1 specialized in Q&A)
-    - Indexed into ``ChromaDB`` for ``semantic search``
-    - Chatbot interface built with Gradio, connected to ``Anthropic Claude Sonnet 3.7 LLM``
-    - Context-aware answers with source links ``retrieval`` via ``get_url tool``
-      - [View Project Repository](https://github.com/donat-konan33/GoogleDriveAgenticIARag.git)
-      - 🎬 [demo video](assets/videos/demo-rag.mp4)
+- **6. Optimisation de l'énergie solaire et de la consommation (déployé sur GCP)**
+  - **Partie 1 : pipeline de données (extraction quotidienne)**
+    - Conception et implémentation d'un pipeline ETLT avec `Airbyte`, `Python`, `GCS` et `BigQuery`.
+    - Optimisation du stockage dans GCS et chargement des données dans BigQuery.
+    - Modélisation avec DBT selon une architecture `Raw-Staging-Intermediate-Mart`.
+    - Orchestration avec Apache Airflow sur une machine virtuelle GCP.
+      - [Voir le dépôt du projet](https://github.com/donat-konan33/airbyte_deployment.git)
 
-
-- **3. Concealed Objects Detection Using Terahertz Imaging**
-  - Built a deep learning solution for detecting concealed objects in terahertz images
-  - Utilized the YOLOv8 convolutional neural network architecture with the PyTorch framework
-    - [View Project Repository](https://github.com/donat-konan33/ConcealedObjectsDetection.git)
-
-
-- **4. Solar Energy and Consumption Optimization (Project deployed to GCP)**
-  - **Part 1: Data Pipeline (Daily Extraction)**
-    - Designed and implemented an ETLT pipeline aggregating data from multiple sources using `Airbyte`, `Python`, `GCS`, and `BigQuery`
-    - Optimized storage in GCS and loaded data into BigQuery
-    - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
-    - Orchestrated the pipeline with Apache Airflow, running on a GCP Virtual Machine
-      - [View Project Repository](https://github.com/donat-konan33/airbyte_deployment.git)
-
-  - **Part 2: Web App leveraging LLM to provide Intelligent Answers based on Prompt**
-    - Developed a Streamlit web application for interactive visualization of weather statistics and trends using the `Plotly` library, updated daily for the next 7 days
-    - Integrated an AI agent powered by the `deepseek/deepseek-r1:free` LLM to provide daily energy consumption recommendations based on typical household appliance usage and solar data
-    - Deployed the application to a scalable environment on GCP Cloud Run using CI/CD pipelines with GitHub Actions
-      - [View Project Repository](https://github.com/donat-konan33/weatherteam_streamlit_dashboard.git)
-      - 🎬 [demo video](https://donat-konan33.github.io/assets/videos/demo.mp4)
-
----
-
-- **5. From Data Pipeline Building to France Restaurants Scoring (Academic Project)**
-<!--[Le Wagon Picture](assets/img/lewagon.jpeg)> <!-- Replace with your lewagon image -->
-  - Collaborative project using `Git` and Pull Requests to Dev and Prod Environment
-  - Setting up a `ETLT Pipeline` from many data sources using `Python`, `GCS` and `BigQuery`
-  - Build data with `DBT` into data warehouse following Raw-Staging-Mart architecture
-  - Orchestrate the entire Data Pipeline with` Apache Airflow`
-  - Web App based on Data into Mart
-      - [View Project Repository](https://github.com/SurEtBon)
+  - **Partie 2 : application web exploitant un LLM pour fournir des réponses contextualisées**
+    - Développement d'une application Streamlit de visualisation interactive des statistiques et tendances météo avec `Plotly`.
+    - Intégration d'un agent IA propulsé par le LLM `deepseek/deepseek-r1:free` pour recommander des actions de réduction de consommation.
+    - Déploiement sur GCP Cloud Run avec des pipelines CI/CD GitHub Actions.
+      - [Voir le dépôt du projet](https://github.com/donat-konan33/weatherteam_streamlit_dashboard.git)
+      - 🎬 [Voir la démonstration](https://donat-konan33.github.io/assets/videos/demo.mp4)
 
 ---
 
-- **6. Solar Energy and Consumption Optimization (Local deployment)**
-    - Designed and implemented an ETLT pipeline aggregating data from multiple sources using `Airbyte OSS`, `Python`, `Minio`, and `ClickHouse`
-    - Data retrieved via an ``EL`` with Airbyte OSS
-    - Optimized storage in Minio and loaded data into ClickHouse Data Warehouse
-    - Modeled data in the warehouse using DBT, following a `Raw-Staging-Intermediate-Mart` architecture
-    - Create a Data Serving system connected to the Warehouse via ``SqlAlchemy`` and an ``API Restful FastAPI App``
-    - All parts are up with docker and docker compose
-      - [View local data pipeline deployment as an alternative to GCS and BigQuery](https://github.com/donat-konan33/EtltAirbyteMinioClickhouseDbtAirflow.git)
-      - [View the Optimized streamlit fronted App with cached system and connected to data warehouse via API](https://github.com/donat-konan33/ClickHouseWeatherAnalyticsDashboard.git)
+- **7. De la construction d'un pipeline data à la notation de restaurants en France (projet académique)**
+<!--[Le Wagon Picture](assets/img/lewagon.jpeg)> <!-- Remplacer par l'image du projet -->
+  - Projet collaboratif utilisant `Git` et les Pull Requests entre environnements de développement et de production.
+  - Mise en place d'un pipeline `ETLT` à partir de plusieurs sources avec `Python`, `GCS` et `BigQuery`.
+  - Transformation des données avec `DBT` selon une architecture Raw-Staging-Mart.
+  - Orchestration du pipeline avec `Apache Airflow`.
+    - Application web basée sur les données du mart.
+      - [Voir le dépôt du projet](https://github.com/SurEtBon)
 
 ---
 
-- **7. Image Classification with Spark SQL/MLlib and Tensorflow via Resnet50 for CNN approach applying (Academic Project)**
-  - Developed a classification model using Spark MLlib as part of an academic project.
-  - Implemented data preprocessing, feature engineering (Images features extraction), and model evaluation within the Spark ecosystem.
-    - [View Project Repository](https://github.com/ONOKANA8/OC_Data_Scientist_P8.git)
+- **8. Optimisation de l'énergie solaire et de la consommation (déploiement local)**
+    - Conception et implémentation d'un pipeline ETLT avec `Airbyte OSS`, `Python`, `Minio` et `ClickHouse`.
+    - Extraction des données avec ``EL`` et Airbyte OSS.
+    - Optimisation du stockage dans Minio et chargement dans ClickHouse.
+    - Modélisation avec DBT selon une architecture `Raw-Staging-Intermediate-Mart`.
+    - Création d'un système de restitution connecté au warehouse via ``SqlAlchemy`` et une ``API REST FastAPI``.
+    - Déploiement de l'ensemble avec Docker et Docker Compose.
+      - [Voir le déploiement local du pipeline data](https://github.com/donat-konan33/EtltAirbyteMinioClickhouseDbtAirflow.git)
+      - [Voir l'application Streamlit optimisée, avec cache et connectée au data warehouse via API](https://github.com/donat-konan33/ClickHouseWeatherAnalyticsDashboard.git)
 
 ---
 
-- **8. Weather Data Analysis and Visualization with Power BI**
-  - Automated extraction of weather data to CSV files using `Python` and orchestrated workflows with `Apache Airflow`
-  - Utilized `Power Query` for data loading and transformation
-  - Modeled and visualized insights with `Power BI` and integrated `Python` scripts for advanced analytics
-    - [Read a detailed post about this project](https://onokana8.github.io/SolarPanelsNasa/2024/05/30/Analyzing-extracted-Data-handling-with-Power-BI-and-Python.html)
-
----
-
-## <a id="contact"></a>📬 **Get in Touch**
+## <a id="contact"></a>📬 **Contact**
 
 - **Email**: [donatien.konan.pro@gmail.com](mailto:donatien.konan.pro@gmail.com)
 - **GitHub**: [github.com/donat-konan33](https://github.com/donat-konan33)
@@ -270,6 +292,6 @@ While I remain open to opportunities across the data field, my long-term objecti
 
 ---
 
-### 🔗 **Live Website**
+### 🔗 **Portfolio en ligne**
 
-Visit my portfolio at: [https://donat-konan33.github.io](https://donat-konan33.github.io)
+Voir mon portfolio : [donat-konan33.github.io](https://donat-konan33.github.io)
